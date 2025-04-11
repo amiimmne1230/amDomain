@@ -1,0 +1,1 @@
+import{_ as a}from"./index-BaPN8NSU.js";import{c as i}from"./NavigationTempl.vue_vue_type_script_setup_true_lang-ONSS9R4d.js";const r="http://localhost:801/api/",n=t=>i.get("".concat(r,"topics"));async function h(){const{state:t,isLoading:e,error:o,execute:s}=await a(()=>n().then(c=>c.data),[]);return{topics:t,isLoading:e,error:o,refetch:s}}export{h as u};
